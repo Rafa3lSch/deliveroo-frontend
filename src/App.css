@@ -1,1 +1,91 @@
 /* Other rules */
+.header {
+  border-bottom: solid 1px #eaebeb;
+  height: 60px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.header-img {
+  width: 350px;
+  border-radius: 5px;
+}
+
+.resto-infos {
+  display: flex;
+  flex-direction: row;
+}
+
+.resto-description {
+  flex-direction: column;
+}
+
+.grey-back {
+  background-color: #f3f5f5;
+}
+
+.resto-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.meals {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.meals-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.meal-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 400px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.meal-container > div {
+  flex: 1;
+}
+
+.meal-img {
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+}
+
+.meal-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.meal-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.meal-desc {
+  color: grey;
+}
+
+.star-icon {
+  color: #f18005;
+}
+
+.basket {
+  width: 350px;
+}
